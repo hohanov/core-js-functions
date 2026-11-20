@@ -90,10 +90,11 @@ function getPowerFunction(exponent) {
 function getPolynom(...coefficients) {
   if (coefficients.length === 0) return null;
 
-  return (value) => coefficients.reduce(
-    (result, coefficient) => result * value + coefficient,
-    0
-  );
+  return (value) =>
+    coefficients.reduce(
+      (result, coefficient) => result * value + coefficient,
+      0
+    );
 }
 
 
