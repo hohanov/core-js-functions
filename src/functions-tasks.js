@@ -96,9 +96,6 @@ function getPolynom(...coefficients) {
       0
     );
 }
-
-
-
 /**
  * Memoizes passed function and returns function
  * which invoked first time calls the passed function and then always returns cached result.
